@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+
+    $Vn = 1.30;
+    $Vp = 1.00;
+    $Qc = 12;
+    
+    if ($Qc < 12)
+    {
+    	echo "O valor da sua compra é " . "R$ " . $Vn * $Qc;
+    }
+    else
+    {
+    	echo "O valor da sua compra é " . "R$ " . $Vp * $Qc ;
+    }
+    
+?>
+
+</body>
+</html>
