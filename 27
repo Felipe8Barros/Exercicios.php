@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+
+    $V = 0;
+    
+      if ($V > 0)
+      {
+        echo "Positivo ";
+      }
+      elseif ($V == 0)
+      {
+        echo "Zero ";
+      }
+      else
+      {
+        echo "Negativo ";
+      }
+    
+?> 
+
+</body>
+</html>
