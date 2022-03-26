@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+
+	$Pn = 8; $Sn = 10; $Ms = 0;
+    
+  $Ms = ($Pn + $Sn) / 2;
+    
+    	while($Pn > 0 or $Pn <= 10 && $Sn > 0 or $Sn <= 10)
+    	{
+        	if ( $Pn <= 10 && $Sn <= 10)
+        	{
+        		echo "A média do aluno é: " . $Ms;
+        			break;
+        	}
+        	else
+        	{
+        		echo " Coloque um número válido de 0 a 10 para as notas do aluno";
+       				break;
+        	}
+      }    
+
+?>
+
+</body>
+</html>
