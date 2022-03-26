@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+
+    $A = 50;
+    
+    if ($A < 10)
+    {
+    	echo "NÃO É MAIOR QUE 10! ";
+    }
+    else 
+    {
+    	echo "É MAIOR QUE 10! ";
+    }
+
+?>
+
+</body>
+</html>
