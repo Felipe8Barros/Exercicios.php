@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+
+	$A = 40; $B = 20;
+    
+    if ( $A < $B )
+    {
+    	echo " $A e $B ";
+    }
+	  elseif ( $A == $B )
+    {
+    	echo "Os Números Informados são Iguais";
+    }
+    else
+    {
+    	echo " $B e $A ";
+    }
+    
+?> 
+
+</body>
+</html>
